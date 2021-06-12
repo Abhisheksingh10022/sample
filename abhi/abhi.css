@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    background-color:rgb(196, 209, 214);
+}
+.navbar{
+    display: flex;
+     align-items: center;
+     justify-content: space-around;
+     background-color:white;
+}
+.navbar_brand
+{
+    width: 100px;
+}
+.navbar_logo
+{
+    width: 100%;
+}
+.order_food
+{
+    background-color:rgb(228, 115, 74);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 80px;
+    padding: 8px;
+
+}

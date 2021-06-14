@@ -24,7 +24,12 @@ body{
 }
 .order_food
 {
-    background-color:rgb(228, 115, 74);
+    background-image: linear-gradient(
+        to right,
+        #ff512f 0%,
+        #dd2476 51%,
+        #ff512f 100%
+    );
     color: white;
     border: none;
     border-radius: 5px;
@@ -64,6 +69,30 @@ body{
 {
     padding: 20px;
 }
+.explore_menu_text{
+    text-align: center;
+  color: black;
+    font-size:33px;
+}
+
+.view_more{
+    
+    background-image: linear-gradient(
+        to right,
+        #ff512f 0%,
+        #dd2476 51%,
+        #ff512f 100%
+    );
+    padding: 20px;
+    border: none;
+     
+}
+.view_more_button{
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+}
 @media(min-width:768px){
 .hero_container{
     display: flex;
@@ -89,5 +118,24 @@ body{
 #pizza{
     margin-top: -10px;
     margin-bottom: 10px;
+}
+.explore_menu_container{
+    margin: 30px;
+    position: relative;
+}
+.explore_menu_gradient_bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(
+        to right,
+        #ff512f 0%,
+        #dd2476 51%,
+        #ff512f 100%
+    );
+    transform: skewY(-2deg);
+    z-index: -1;
 }
 }
